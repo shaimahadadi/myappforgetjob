@@ -1,13 +1,102 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Myappforgetgob</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <title>GET JOB WITH US</title>
+<h1> GO GET THE JOB with our company!!</h1>
+            <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                /* Add a gray background color with some padding */
+                body {
+                  font-family: Arial;
+                  padding: 20px;
+                  background: #838282;
+                }
+                </style>
+                </head>
+            <div class="w3-col m8 w3-panel">
+              <div class="w3-large w3-margin-bottom">
+              </div>
+              <p>Register to join us<i class="fa fa-coffee"></i> </p>
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="talk about your self" required name="talk about your self">
+                <button class="w3-button w3-black w3-right w3-section" type="submit">
+                  <i class="fa fa-paper-plane"></i> SEND
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+<br><b>Solve all the questions to be the winner of the job:  </b><br>
+        <p>What do you want from the job?</p>
+        <form action="https://harmash.com/html/html-radio-buttons/view-selected-value.php" method="post">
+                    
+                        <input type="radio" id="ra" name="job" value="money">
+                        <label for="ra">money</label><br>
+            
+                        <input type="radio" id="ra" name="job" value="Experience">
+                        <label for="ra">Experience</label><br>
+            
+                        <input type="radio" id="ra" name="job" value="friendship">
+                        <label for="ra">friendship</label><br><br>
+            <form>
+                <p>Why do you want to work for this particular company? </p>
+                <input type="radio" name="Questions" id="Collaboration between employees">Collaboration between employees<br>
+                <input type="radio" name="Questions" id="High efficiency among employees">High efficiency among employees<br>
+                <input type="radio" name="Questions" id="All the answers">All the answers<br>
+              </form>
+<p>Why did you leave your previous job / Why do you want to leave your current job?</p>
+<form action="/action_page.php">
+  <input type="radio" name="ans" value="I do not like">I do not like<br>
+  <input type="radio" name="ans" value="I moved to another city">I moved to another city<br>
+  <input type="radio" name="ans" value="The salary is not enough">The salary is not enough<br>
+  <br>
+</form>
+<p> Where do you see yourself in the next five years? </p>
+<input type="radio" name="n" id="I see myself as a contributing and effective member of the team; I want to develop and grow in your company" value="I see myself as a contributing and effective member of the team; I want to develop and grow in your company">I see myself as a contributing and effective member of the team; I want to develop and grow in your company<br> 
+<input type="radio" name="n" id="I see that I will be in the leader's place" value="I see that I will be in the leader's place">I see that I will be in the leader's place<br> 
+<input type="radio" name="n" id="I do not know . Just work for today" value="I do not know . Just work for today">I do not know . Just work for today<br>
+<input type="radio" name="n" id="Very rich because the salary is good in this company" value="Very rich because the salary is good in this company">Very rich because the salary is good in this company<br>
+</from>
+    <p>What are you looking for in career development?</p>
+    <input type="radio" id="a" name="job" value="Get more responsibilities over time through the job" checked>
+    <label for="ar">Get more responsibilities over time through the job</label><br>
+    <input type="radio" id="a" name="job" value="Leading my team into the future">
+    <label for="en">Leading my team into the future</label><br>
+    <input type="radio" id="a" name="job" value="I am happy with the current job">
+    <label for="fr">I am happy with the current job</label><br><br>
+</form>
+<p>Do you come early to work?</p>
+<form action="/action_page.php">
+<input type="checkbox" name="salary" value="no">no<br>
+<input type="checkbox" name="salary" value="yes">yes<br>
+<br>
+<input type="button" onclick="myFunction()" value="Submit">
+<br><br>
+<input type="text" id="job" size="50">
+</form>
+<script>
+function myFunction() {
+  var job = document.forms[0];
+  var txt = "";
+  var i;
+  for (i = 0; i < job.length; i++) {
+    if (job[i].checked) {
+      txt = txt + job[i].value + " ";
+    }
+  }
+  document.getElementById("job").value = "Thank you . We will reply to you soon " + txt;
+}
+</script>
+    </body>
 </html>
